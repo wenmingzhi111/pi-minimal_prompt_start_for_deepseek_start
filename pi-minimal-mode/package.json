@@ -1,0 +1,20 @@
+{
+  "name": "pi-minimal-mode",
+  "version": "1.1.1",
+  "description": "Anchored-turn minimal mode for pi: /minimal fires one isolated anchor request , then promotes to the full toolset and complete system prompt before the real user message.",
+  "license": "MIT",
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "minimal-mode",
+    "deepseek-harness",
+    "anchor-turn",
+    "inference-time",
+    "prompt-caching"
+  ],
+  "pi": {
+    "extensions": [
+      "index.js"
+    ]
+  }
+}
