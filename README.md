@@ -92,7 +92,7 @@
 - 此为pi渲染循环正常现象，用户无需在意，可以直接在对话框内输入或点击对话框，触发pi渲染后即会消失
 
 ## 思维链引导测试实验
-- 使用deepseek v4 pro oneshot了一个黑洞，具体提示词为：
+- 使用deepseek v4 pro oneshot了一个黑洞，文件在black_hole_test,图片为black-hole.png，具体提示词为：
 
 【角色设定】
 你是一位精通 WebGL 和 Three.js 的资深图形学专家。
