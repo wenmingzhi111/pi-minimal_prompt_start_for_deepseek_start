@@ -87,14 +87,6 @@
 - pi（已在 0.84.x 上测试）
 - 运行测试需要 Node.js ≥ 18
 
-## 开发
-
-```bash
-node tests/test_minimal_mode.mjs        # mock-API 单元测试（无需 pi）
-node tests/verify_minimal_load.mjs      # 验证 pi 能发现/加载该扩展
-                                        # （自动检测失败时设置 PI_DIST_DIR）
-```
-
 ## 已知bug
 - 由于pi的fullscreen的渲染问题，会导致锚定结束后对话框内出现：“minimal: 已启用，正在执行锚定轮（0 工具 + SYSTEM.md 极简 system，max_tokens=4096 + thinking）…”
 - 此为pi渲染循环正常现象，用户无需在意，可以直接在对话框内输入或点击对话框，触发pi渲染后即会消失
