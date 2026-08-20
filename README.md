@@ -51,7 +51,7 @@
 | --- | --- | --- |
 | system | 仅 `SYSTEM.md`（无 AGENTS.md/skills/cwd） | pi 完整系统提示（SYSTEM.md + `<project_context>` + `<available_skills>` + cwd） |
 | messages | `[锚定 user]` | `[锚定 user, 锚定 assistant, 真实 user]` |
-| tools | `[]` | 空工具集 |
+| tools | `[]` | 全工具集 |
 | max_tokens | `4096` | 你的默认值 |
 | thinking | 强制 `enabled`（可见） | 你的正常设置 |
 
